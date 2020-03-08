@@ -93,7 +93,7 @@ class TicTacToe
     end
   end
   
-  def play  # puts winner ? "Congratulations #{winner}!" : "Cat's Game!"
+  def play  
     turn until over?
     if self.won?
       puts "Congratulations #{winner}!"
