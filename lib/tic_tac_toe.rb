@@ -95,7 +95,7 @@ class TicTacToe
     turn until over?
     if self.won?
       puts "Congratulations #{winner}!"
-      elsif self.draw?
+    elsif self.draw?
       puts "Cat's Game!"
     else
       puts "That was fun, see you next time."
